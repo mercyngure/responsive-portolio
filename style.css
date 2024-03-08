@@ -8,6 +8,30 @@
 body{
     background-color: white;
 }
+nav{
+    padding: 20px 0;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 10px;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+nav a:hover{
+    color: var(--branding-color);
+    transition: 100ms ease-in-out;
+}
+ nav li.active a {
+  color: var(--branding-color);
+}
 .home{
     text-align: center;
     background-color: #F9F7FE;
@@ -59,7 +83,7 @@ col-sm p{
         text-align:center;
     }
     h1{
-        font-size: 48px;
+        font-size: 36px;
     }
     body{
     text-align: center;
@@ -69,12 +93,13 @@ col-sm p{
         text-align: center;
     }
     .hero h1{
-        font-size: 36px;
-    }
-    .img-fluid1{
-        display: block;
-    }
+        font-size: 48px;
 
+    }
+    h2{
+       font-size: 16px;
+    }
+    
 }
 .hero h1{
     font-size: 72px;
@@ -109,15 +134,11 @@ col-sm p{
     background: var(--branding-color);
     font-size:18px
 }
-.img-fluid1{
-    width:400px;
-    height: 500px;
-    border-radius: 5px;
-    margin-left: 70px;
-    border: 1px solid;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    
+.image-display{
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 10px;    
 }
 .hero h3{
     font-size: 24px;
@@ -125,4 +146,3 @@ col-sm p{
     font-family: var(--default-font-family);
     font-weight: 700;
 }
-.he
