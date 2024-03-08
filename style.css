@@ -1,6 +1,9 @@
 :root{
     --primary-color:#0000ff;
-    --custom-font:poppins;
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins"
 }
 body{
     background-color: white;
@@ -18,12 +21,12 @@ body{
    
 }
 h1{
-    font-family: Playfair Display;
+    font-family: var(--heading-font-family);
     font-size: 96px;
     line-height: 72px
 }
 .home h2{
-    font-family: var(--custom-font);
+    font-family: var(--default-font-family);
     font-size: 24px;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -35,7 +38,7 @@ h1{
 
 align-items: center;
 border-radius: 4px;
-background-color:var(--primary-color);
+background-color:var(--branding-color);
 padding:18px 30px 18px 30px;;
 text-decoration: none;
 gap: 10px;
@@ -61,4 +64,58 @@ col-sm p{
     body{
     text-align: center;
     }
+    .hero{
+        align-items: center;
+        text-align: center;
+    }
+    .hero h1{
+        font-size: 36px;
+    }
+    .img-fluid1{
+        display: block;
+    }
+
+}
+.hero h1{
+    font-size: 72px;
+    line-height: 80px;
+    font-family: var(--heading-font-family);
+    margin-bottom: 24px;
+    font-weight: 700px;
+    font-style: bold;
+}
+.hero h2{
+    font-size: 18px;
+    font-family: var(--heading-font-family);
+    line-height: 1.5;
+    font-style: bold;
+}
+.hero p{
+    font-weight: normal;
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.about-section-content{
+    margin: 40px;
+}
+.btn-branding{
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    background: var(--branding-color);
+    font-size:18px
+}
+.img-fluid1{
+    width:400px;
+    height: 500px;
+    border-radius: 5px;
+    margin-left: 70px;
+    border: 1px solid;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
 }
