@@ -49,6 +49,11 @@ h1{
     font-size: 96px;
     line-height: 72px
 }
+h4{
+    font-size: 48px;
+    font-family: var(--heading-font-family);
+    font-style: bold;
+}
 .home h2{
     font-family: var(--default-font-family);
     font-size: 24px;
@@ -145,4 +150,37 @@ col-sm p{
     line-height: 1.5;
     font-family: var(--default-font-family);
     font-weight: 700;
+}
+footer{
+    margin: 60px 0;
+}
+footer .contact-box{
+    background: rgb(247, 243, 243);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p{
+   margin: 0;
+}
+footer .email-link{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+footer .social-links a{
+    text-align: center;
+    margin:0 20px;
+    color: var(--branding-color);
+    background: rgb(207, 201, 201);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+footer .socia-links a:hover{
+     color: white;
+     background: var(--branding-color);
+     transition: all 100ms ease-in-out;
 }
