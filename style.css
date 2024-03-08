@@ -1,6 +1,10 @@
+.root{
+    --primarycolor: ;
+}
 body{
     background-color: white;
-}.home{
+}
+.home{
     text-align: center;
     background-color: #F9F7FE;
     margin: 0;
@@ -43,7 +47,7 @@ margin-bottom: 48px;
 col-sm p{
     font-size: 24px;
 }
-@media(max-width:900){
+@media(max-width:600px){
     img{
         display:none
     }
@@ -52,5 +56,8 @@ col-sm p{
     }
     h1{
         font-size: 48px;
+    }
+    body{
+    text-align: center;
     }
 }
