@@ -93,7 +93,7 @@ col-sm p{
 .hero p{
     font-weight: normal;
     font-family: var(--default-font-family);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     margin-bottom: 48px;
 }
@@ -119,3 +119,10 @@ col-sm p{
     overflow: clip;
     
 }
+.hero h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+    font-weight: 700;
+}
+.he
