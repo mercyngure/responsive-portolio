@@ -1,5 +1,6 @@
-.root{
-    --primarycolor: ;
+:root{
+    --primary-color:#0000ff;
+    --custom-font:poppins;
 }
 body{
     background-color: white;
@@ -22,7 +23,7 @@ h1{
     line-height: 72px
 }
 .home h2{
-    font-family: poppins;
+    font-family: var(--custom-font);
     font-size: 24px;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -34,7 +35,7 @@ h1{
 
 align-items: center;
 border-radius: 4px;
-background-color: #6C63FF;
+background-color:var(--primary-color);
 padding:18px 30px 18px 30px;;
 text-decoration: none;
 gap: 10px;
