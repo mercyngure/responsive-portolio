@@ -182,7 +182,7 @@ footer .social-links a{
     font-size: 18px;
     border-radius: 50%;
 }
-footer.socia-links a:hover{
+footer .social-links a:hover{
      color: white;
      background: palevioletred;
      transition: all 100ms ease-in-out;
