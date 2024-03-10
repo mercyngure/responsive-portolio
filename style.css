@@ -27,7 +27,7 @@ nav a{
 }
 nav a:hover{
     color: var(--branding-color);
-    transition: 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
  nav li.active a {
   color: var(--branding-color);
@@ -103,8 +103,11 @@ col-sm p{
     }
     h2{
        font-size: 16px;
+
     }
-    
+    h4{
+        font-size: 36;
+   }
 }
 .hero h1{
     font-size: 72px;
@@ -123,7 +126,7 @@ col-sm p{
 .hero p{
     font-weight: normal;
     font-family: var(--default-font-family);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     margin-bottom: 48px;
 }
@@ -172,15 +175,15 @@ footer .email-link:hover{
 }
 footer .social-links a{
     text-align: center;
-    margin:0 20px;
+    margin: 0 20px;
     color: var(--branding-color);
     background: rgb(207, 201, 201);
     padding: 10px 14px;
     font-size: 18px;
     border-radius: 50%;
 }
-footer .socia-links a:hover{
+footer.socia-links a:hover{
      color: white;
-     background: var(--branding-color);
+     background: palevioletred;
      transition: all 100ms ease-in-out;
 }
