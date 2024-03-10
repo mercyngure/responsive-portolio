@@ -130,8 +130,14 @@ col-sm p{
     line-height: 30px;
     margin-bottom: 48px;
 }
+.about-section-content h1{
+    font-size: 36;
+    font-family: var(--heading-font-family);
+}
 .about-section-content{
-    margin: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .btn-branding{
     border-radius: 4px;
