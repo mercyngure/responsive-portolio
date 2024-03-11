@@ -7,9 +7,17 @@
 }
 body{
     background-color: white;
+    font-family: var(--default-font-family);
+}
+h1 h2 h3 h4{
+    font-family: var(--heading-font-family);
+}
+.container{
+    margin: 0px;
 }
 nav{
-    padding: 20px 0;
+    padding:20px; 
+    
 }
 nav ul{
     padding: 0;
@@ -33,9 +41,11 @@ nav a:hover{
   color: var(--branding-color);
 }
 .home{
+    margin-top: 50px;
     text-align: center;
     background-color: #F9F7FE;
     margin: 0;
+    line-height: 180px;
 }
 .home p{
     font-family: poppins;
@@ -55,6 +65,7 @@ h4{
     font-style: bold;
 }
 .home h2{
+    margin-top: 20px;
     font-family: var(--default-font-family);
     font-size: 24px;
     line-height: 1.2;
@@ -107,6 +118,9 @@ col-sm p{
     }
     h4{
         font-size: 36;
+   }
+   .cv{
+    display:none;
    }
 }
 .hero h1{
@@ -162,6 +176,7 @@ col-sm p{
 }
 footer{
     margin: 60px 0;
+
 }
 footer .contact-box{
     background: rgb(247, 243, 243);
@@ -192,4 +207,20 @@ footer .social-links a:hover{
      color: white;
      background: palevioletred;
      transition: all 100ms ease-in-out;
+}
+.resume a{
+    background: rgb(49, 53, 54);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    font-size:18px;
+    justify-content:center;
+    margin: 0 auto;
+}
+.resume a:hover{
+    background:black;
+    color: white;
+    box-shadow: 0px 1px 0px 5px;
 }
