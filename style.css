@@ -12,6 +12,15 @@ body{
 h1 h2 h3 h4{
     font-family: var(--heading-font-family);
 }
+.logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transition: 0.4s all ease;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: rgb(209, 217, 230) 5px 5px 25px;
+
+}
 .container{
     margin:0px
 }
@@ -25,9 +34,24 @@ nav ul{
     margin: 0;
 }
 nav li{
+    width: 60px;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: 0.4s all ease;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: rgb(209, 217, 230) 5px 5px 15px ;
+       position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display: inline;
     list-style: none;
-    line-height: 10px;
+  
 }
 nav a{
     margin-left: 20px;
@@ -210,15 +234,16 @@ footer .social-links a:hover{
      transition: all 100ms ease-in-out;
 }
 .resume a{
-    background: rgb(49, 53, 54);
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    font-size:18px;
-    justify-content:center;
-    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    transition: 0.4s all ease;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: rgb(209, 217, 230) 5px 5px 15px;
 }
 .resume a:hover{
     background:black;
