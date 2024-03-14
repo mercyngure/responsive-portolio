@@ -176,11 +176,10 @@ col-sm p{
 }
 .btn btn-primary{
     border-radius: 4px;
-    color: white;
+    color:black;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
-    background: var(--branding-color);
     font-size:18px;
     background:slateblue;
 
