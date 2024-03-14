@@ -68,6 +68,12 @@ nav a:hover{
     line-height:  38.4px;
    
 }
+.letter{
+    font-family: var(--heading-font-family);
+    font-size: 60px;
+    line-height: 72px
+}
+
 h1{
     font-family: var(--heading-font-family);
     font-size: 96px;
@@ -208,39 +214,49 @@ footer .email-link{
 footer .email-link:hover{
     color: var(--branding-color);
 }
+footer .social-links a::before,
+footer .social-links::after {
+    
+    margin-right: 10px;
+   
+}
 footer .social-links a{
+    display: flex;
+    justify-content: center;
     width: 60px;
     height: 60px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    line-height: 60px;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 40px;
+    padding: 0 20px;
     border-radius: 6px;
     transition: 0.4s all ease;
     background: rgba(0, 0, 0, 0);
     box-shadow: rgb(209, 217, 230) 5px 5px 15px ;
-       position: relative;
-    text-align: center;
-    margin: 0 20px;
-    color: var(--branding-color);
-    background: rgb(207, 201, 201);
-    padding: 10px 14px;
-    font-size: 18px;
-    border-radius: 50%;
+    
 }
 footer .social-links a:hover{
      color: white;
      background: palevioletred;
      transition: all 100ms ease-in-out;
 }
+.resume a::before,
+.resume a::after {
+    
+    margin-right: 10px
+}
+   
 .resume a{
-    width: 60px;
+    display: block;
+    justify-content: center;
+    width: 150px;
     height: 60px;
     line-height: 60px;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 2px;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 60px;
+    padding: 0 20px;
     border-radius: 6px;
     transition: 0.4s all ease;
     background: rgba(0, 0, 0, 0);
@@ -249,5 +265,4 @@ footer .social-links a:hover{
 .resume a:hover{
     background:black;
     color: white;
-    box-shadow: 0px 1px 0px 5px;
 }
