@@ -1,0 +1,678 @@
+:root {
+    --heading-font-family: "Bai Jamjuree", sans-serif;
+    --body-font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #161513;
+    color: white;
+}
+
+.sticky-top {
+    background: #080808;
+    color:white;
+    
+}
+.navbar-brand{
+    color:white;
+    opacity:0.4
+}
+
+.navbar-collapse {
+    font-family: var(--heading-font-family);
+    font-size: 18px;
+    text-align: right;
+
+}
+
+.navbar-nav .nav-link.active {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #FF5E69;
+}
+
+.navbar-nav .nav-link {
+    color: wheat;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+
+.hero {
+    background: #161513;
+    padding: 140px 70px 70px 70px;
+}
+
+.hero p {
+    font-family: var(--body-font-family);
+    color: #B16CEA;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.hero h1 {
+    font-family: var(--heading-font-family);
+    background: linear-gradient(10deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.hero h2 {
+    font-family: var(--body-font-family);
+    color: white;
+    font-size: 20px;
+}
+
+.hero h3 {
+    font-family: var(--body-font-family);
+    color: wheat;
+    font-size: 12px;
+}
+
+.hero .btn-primary {
+    background: linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+    border: none;
+    border-radius: 8px;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.hero .btn-primary:hover {
+    background: none;
+    border: 1px solid #FF5E69;
+}
+
+.hero .btn-outline-primary {
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.hero .btn-outline-primary:hover {
+    background: none;
+    border-color: #FF5E69;
+}
+
+.coding-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -320px;
+    margin-right: 40px;
+}
+
+.latest-projects {
+    background: #1C1C22;
+    padding: 25px 40px;
+}
+
+
+.latest-heading {
+    font-family: var(--heading-font-family);
+    background: linear-gradient(104deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.projects {
+    border: 1px solid #B16CEA;
+}
+
+.container {
+    padding: 0;
+}
+
+.view-project {
+    border-color: wheat;
+    border-radius: 8px;
+    color: white;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.view-project:hover {
+    background: none;
+    border-color: #FF5E69;
+}
+
+
+.about-me {
+    margin-top: 90px;
+
+}
+
+.about {
+    font-family: var(--heading-font-family);
+    background: linear-gradient(10deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.about-description {
+    color: white;
+    font-size: 18px;
+
+}
+
+.connect {
+    background: linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+    border: none;
+    border-radius: 8px;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.connect:hover {
+    background: none;
+    border: 1px solid #FF5E69;
+}
+
+.btn-outline-primary {
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-left: 6px;
+}
+
+.btn-outline-primary:hover {
+    background: none;
+    border-color: #FF5E69;
+}
+
+
+.portfolio {
+    padding: 25px 40px;
+}
+
+.portfolio-heading {
+    margin-bottom: 25px;
+}
+
+.portfolio-image {
+    border-radius: 10px 10px 0 0;
+}
+
+
+.port-description {
+    background: rgba(28, 28, 34, 0.5);
+    padding: 10px 12px;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.port-description h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.port-description a {
+    font-size: 12px;
+}
+
+
+.tools{
+    display: flex;
+        justify-content: space-around;
+        margin: 25px 150px 30px;
+}
+
+.what-i-do{
+        background: rgba(28, 28, 34, 0.5);
+        backdrop-filter: blur(3px);
+        padding: 10px 15px 5px;
+}
+
+.icon {
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+ text-align: center;
+ color: wheat;
+font-size: 16px;
+ line-height: 20px;
+ margin-top: 10px;
+margin-bottom: 10px;
+ }
+
+ #tech{
+    margin-top: 20px;
+ }
+
+ #tech h2{
+    text-align: center;
+ ;
+ }
+
+ .contact{
+    margin-top: 50px;
+    padding: 0px 20px;
+ }
+
+ .contact h1{
+    font-family: var(--heading-font-family);
+        background: linear-gradient(10deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 800;
+        
+ }
+
+ .contact h3{
+    font-family: var(--heading-font-family);
+    color: white;
+    font-size: 15px;
+ }
+
+ .socials{
+    margin-top: 20px;
+    font-family: var(--heading-font-family);
+ }
+
+ .socials a{
+    color: wheat;
+    text-decoration: none;
+ }
+
+ .socials a:hover{
+    text-decoration: underline;
+ }
+
+ input{
+    margin-bottom: 20px;
+    display: block;
+    background: #1C1C22;
+    color: wheat;
+    border: none;
+}
+
+form {
+    max-width: 400px;
+    color: #fff;
+    font-size: 12px;
+    font-family: var(--heading-font-family);
+ }
+
+ .form-group {
+     margin-bottom: 15px;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 5px;
+   
+ }
+
+ input,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     border: none;
+     border-radius: 5px;
+    background: #1C1C22;
+ }
+
+ .contact button {
+ background: linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+ border: none;
+ border-radius: 8px;
+ font-family: var(--heading-font-family);
+ font-weight: 500;
+ font-size: 13px;
+ color: white;
+ padding: 4px 10px;
+ }
+
+ button:hover {
+     background: none;
+     border: 1px solid #FF5E69;
+ }
+
+.contact-box {
+    padding: 30px 70px;
+    border: 1px solid wheat;
+    margin: 70px 170px;
+    border-radius: 10px;
+
+}
+
+.contact-box h4{
+    font-size: 25px;
+}
+
+.contact-box p {
+    margin: 0;
+    color: white;
+}
+
+.contact-box a{
+    color: white;
+}
+
+footer{
+    margin: 40px 60px;
+}
+
+hr{
+    height: 15px;
+    color: white;
+
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.back-to a{
+margin: 0 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.back-to a:hover {
+    border-bottom: 2px solid #FF5E69;
+}
+
+footer .social-links a {
+    margin: 0 6px;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 50%;
+    border: 1px solid #FF5E69 ;
+    font-size: 12px;
+    transition: all 100ms ease-in-out;
+}
+
+.owner{
+    font-family: var(--heading-font-family);
+    color: white;
+    font-size: 14px;
+}
+
+.owner a{
+    background: linear-gradient(10deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.owner a:hover{
+border-bottom: 2px solid #FF5E69;
+}
+
+
+
+@media screen and (max-width:1400px) {
+    .coding-img {
+        float: right;
+        margin-right: -5px;
+        margin-top: -340px;
+        margin-bottom: 0px;
+    }
+
+    .hero {
+        padding: 90px 70px 200px;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    .coding-img {
+        content: url('images/woman2.png');
+        float: right;
+        margin-right: -5px;
+        margin-top: -340px;
+        margin-bottom: 0px;
+    }
+
+    .hero {
+        padding: 40px 30px 160px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .hero h3 {
+        font-size: 13px;
+        clear: left;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:766px) {
+    .hero {
+        padding: 40px 30px 70px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero h2 {
+        font-size: 15px;
+    }
+
+    .hero h3 {
+        font-size: 13px;
+
+    }
+
+    .coding-img {
+        display: none;
+    }
+
+
+    .project-image {
+        padding: 0px 25px;
+
+    }
+
+    .projects {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .latest-heading {
+        margin-bottom: -20px;
+        font-size: 20px;
+    }
+
+    .latest-projects {
+        padding: 20px;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .about-me {
+        padding: 5px 20px 0px;
+    }
+
+    .connect {
+        font-size: 12px;
+    }
+
+    .btn-outline-primary {
+        font-size: 12px;
+        margin-top: -2px;
+    }
+
+    .port-description {
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+
+    .port-description h3 {
+        color: white;
+        font-size: 18px;
+    }
+
+    .port-description a {
+        font-size: 11px;
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+.tools {
+     display:flex;
+    flex-wrap: wrap;
+    margin: 10px 35px 30px;
+}
+     .what-i-do {
+          margin-top: 20px;
+        }
+    
+        
+        .name {
+            font-size: 15px;
+        }
+    
+
+    }
+    
+    
+    
+    @media screen and (max-width:500px){
+    footer {
+        margin: 40px 25px;
+    }
+ 
+    .back-to a {
+        font-size: 8px;
+    }
+ 
+    .footer-box img {
+        width: 100px;
+    }
+ 
+    footer .social-links a {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .hero {
+        padding: 20px 30px 50px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .hero h2 {
+        font-size: 14px;
+    }
+
+    .hero h3 {
+        font-size: 10px;
+        padding-right: 1px;
+    }
+
+    .hero .btn-primary {
+        font-size: 9px;
+    }
+
+    .hero .btn-outline-primary {
+        font-size: 9px;
+    }
+
+        .about-me {
+            padding: 5px 20px 0px;
+        }
+
+    .port-description h3 {
+        color: white;
+        font-size: 15px;
+    }
+
+    .port-description a {
+        font-size: 10px;
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .tools{
+        display: grid;
+       grid-template-columns: 1fr;
+    }
+
+        footer {
+            margin: 40px 25px;
+        }
+
+.back-to a{
+    font-size: 8px;
+}
+
+.footer-box img{
+    width: 100px;
+}
+
+footer .social-links a{
+    font-size: 8px;
+}
+
+.owner{
+    font-size: 12px;
+}
+
+}
