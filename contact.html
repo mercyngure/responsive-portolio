@@ -9,7 +9,8 @@
 </head>
 </head>
 <body>
-    <div class="container">
+    <div class="about-us"> 
+           <div class="container">
         <nav class=" d-flex justify-content-between">
             <img src="Mw.jpg" alt="">
             <ul>
@@ -31,34 +32,35 @@
             </ul>
         </nav>
         </div>
-    <div class="hero container">
-        <div class="about-section-content"></div>
-    <h1 class="mt-6">Let's get in touch!</h1>
-    <h3>Email</h3>
+    <div class=" contact container">
+        <div class="row d-flex">
+            <div class="col mt-5">
+    <h2 class="mt-6">Let's get in touch!</h2>
+    <p>Have a project in mind? Looking to partner or work together?
+        Reach out through the form.</p>
      <P class="mb-3">
         <a href="mailto:mercyngure87@gmail.com"> mercyngure87@gmail.com</a></P>
-    <h3>linkedin</h3>
-   <P class="mb-3">
-     <a href="https://www.linkedin.com/in/mercy-ngure-98483817b/" target="_blank"> Mercy Ngure</a>
-    </p>
-    <h3>Github</h3>
-    <p>
-     <a href="https://github.com/mercyngure?tab=repositories" target="_blank">Mercy Ngure</a></p>
-     <div class="resume">
-        <a href="https://docs.google.com/document/d/1ogLy4AD2ms63x1Z_5mqls6p3tfCUxcwItS26RAK3NWc/edit"> Download cv</a>
-        </div>
+     </div>
+     <div class="col mt-5">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required/>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="form-email mb-3" placeholder="Johndoe@gmail.com" required/>
+        
+            <label for="message">Lets talk:</label>
+            <textarea id="message" placeholder="Type here..." required></textarea>
+        
+            <input type="submit" value="Submit" class="button mt-3">
+        </form>
+    
+      </div>
+     </div>
+     </div>
+     <hr class="mt-5"> 
      <footer>
-        <div class="contact-box d-flex justify-content-between mb-5">
-            <div>
-            <h4>
-               <strong>Work Inquiry</strong> 
-            </h4>
-            <p>Lets work together</p>
-            </div>
-            <div>
-            <a href="" class="btn-branding d-none d-md-block"> Contact Me</a>
-            </div>
-        </div>
+       
         
         <div class="d-flex justify-content-center">
             <a href="mailto:mercyngure87@gmail.com" target="_blank" class="email-link mt-4 text-center mb-5">mercyngue87@gmail.com
@@ -80,6 +82,7 @@
             </div>
         
     </footer>
+</div>
 </div>
 </body>
 </html>
